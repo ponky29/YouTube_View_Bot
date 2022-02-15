@@ -7,19 +7,19 @@ driver = 'driver/chromedriver'
 
 print('How many views you want? |Terminate by STOP')
 while True:
-    views = input('')
-    if views == 'STOP':
+    views = input('1000')
+    if views == 'STOP':1000
         break
 
 print('Enter URL |Terminate by STOP')
 while True:
-    url = input('')
+    url = input('https://www.youtube.com/watch?v=HBnV_Xyro64')
     if url == 'STOP':
         break
 
 
-def viewVideo(browser):
-    while(True):
+def viewVideo(browser):2
+    while(True):2
         browser.get(url)
         time.sleep(random.randint(4, 11))
 
